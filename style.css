@@ -1,4 +1,174 @@
+/* GENERAL */
+
+.body{
+
+    width: 100%;
+}
+
+.logo {
+    
+    width: auto;
+    height: 50px;
+}
 
 
+.flexCentre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* LOCALISATION */
+
+.localisation {
+    width: 100%;
+    height: 50px;
+   background-color: rgb(243, 237, 237);
+    box-shadow: 5px 5px gray;
+}
+
+.villeLocalisation {
+    padding: 10px;
+    
+}
+
+
+.contenair1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.bloc1 {
+    WIDTH: 30%;
+    font-weight: 350px;
+    text-align: center;
+}
+
+.button {
+    width: 280px;
+    height: 70px;
+    border-radius: 40px;
+    color: white;
+    background-color: #FF79DA;
+    border: 1px solid #FF79DA;
+    box-shadow: 0px 5px 5PX #ff79da;
+
+}
+
+
+
+.taillephoto{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+}
+
+.photo1 {
+
+/* width: 80%; */
+width: 100%;
+}
+
+
+.photo1 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+
+.imgNomLieuxResto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer {
+
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+
+
+.choix {
+    display: flex;
+    align-items: center;
+    border: 1px;
+    justify-content: space-evenly;
+}
+
+.bordureChoix {
+    
+    height: 80px;
+    width: 350px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 40px;
+    margin: 30px;
+    background-color: rgb(197, 192, 186);
+    justify-content: left;
+    box-shadow: 5px 10px 5px 1px rgba(0, 0, 255, .2);
+
+
+}
+.numero {
+
+    padding-left: 20px;
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FF79DA;
+    color: white;
+    
+    
+    
+    height: 42px;
+    width: 42px;
+
+}
+
+.icone {
+
+    padding: 20px;
+
+}
+
+.margetextephoto{
+
+    margin: 1px;
+}
+
+
+
+
+.CONTAINERTEST {
+
+    width: 100%;
+    height: 1000px;
+    background-color: #EAEAEA;
+   
+}
+
+.BORDURE{
+    display: flex;
+flex-wrap: wrap;   
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
 
 
