@@ -13,6 +13,13 @@
         href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:ital,wght@0,300;1,600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 
@@ -20,16 +27,17 @@
 <body class="body">
 
     <header class="flexCentre top-page">
-
         <img class="logo" src="./Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="Logo de ohmyfood">
-
     </header>
 
+
+
     <!-- LOCALISATION -->
-    <Section class="localisation flexCentre">
+    <Section class="localisation">
         <div>
-            <i class="fas fa-map-marker"></i>
+            <i class="fas fa-map-marker-alt"></i>
         </div>
+
 
         <div class="villeLocalisation">
             <h2>Paris, Belleville</h2>
@@ -43,7 +51,7 @@
 
 
         <div class="bloc1">
-            <BR></BR>
+            <BR>
 
             <div>
                 <h2>Réservez le menu qui vous convient</h2>
@@ -53,7 +61,7 @@
                 <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             </div>
 
-            <div>
+            <div class="divButton">
                 <button class="button">
                     <h2>Explorez nos restaurants</h2>
                 </button>
@@ -73,11 +81,11 @@
 
             <div>
                 <div class="choix bordureChoix">
-                    <div>
-                        <h3 class="numero">1</h3>
+                    <div class="numero">
+                        <h3>1</h3>
                     </div>
                     <div class="icone">
-                        <i class="fas fa-map-marker"></i>
+                        <i class="fas fa-mobile"></i>
                     </div>
                     <div>
                         <h3>Choisissez un restaurant</h3>
@@ -86,13 +94,13 @@
 
                 <div class="choix bordureChoix">
                     <div class="numero">
-                        <P>2</P>
+                        <h3>2</h3>
                     </div>
                     <div class="icone">
-                        <i class="fas fa-map-marker icone"></i>
+                        <i class="fas fa-list-alt"></i>
                     </div>
                     <div>
-                        <h3>Choisissez un restaurant</h3>
+                        <h3>Composez votre menu</h3>
                     </div>
                 </div>
 
@@ -101,10 +109,10 @@
                         <P>3</P>
                     </div>
                     <div class="icone">
-                        <i class="fas fa-map-marker"></i>
+                        <p class="colorStore"><i class="fas fa-store"></i></p>
                     </div>
                     <div>
-                        <h3>Choisissez un restaurant</h3>
+                        <h3>Dégustez au restaurant</h3>
                     </div>
                 </div>
             </div>
@@ -115,54 +123,39 @@
 
 
 
+
     <!--DEBUT SECTION 3 LES DIFFERENTS SRESTAURANTS-->
     <Section class="containerResto">
         <div></div>
         <div>
             <h2>Restaurants</h2>
         </div>
+        <a href="./Alafrancaise.html">
+            <Div class="imgNomLieuxResto">
 
-        <Div class="imgNomLieuxResto">
-
-            <div class=>
-                <div class="photo1"><img
-                        src="Maquettes Ohmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-                </div>
-
-                <div class="nomResto">
-                    <div>
-                        <h3>La palette du goût</h3>
-                        <p>Ménilmontant</p>
+                <div class=>
+                    <div class="photo1"><img
+                            src="Maquettes Ohmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
                     </div>
 
-                    <div class="icone">
-                        <i class="fas fa-map-marker icone"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <Div class="imgNomLieuxResto">
-
-            <div class=>
-                <div class="photo1"><img
-                        src="Maquettes Ohmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-                </div>
-
-                <div class="nomResto">
-                    <div>
-                        <h3>La palette du goût</h3>
-                        <p>Ménilmontant</p>
+                    <div class="nouveau">
+                        <p>Nouveau</p>
                     </div>
 
-                    <div class="icone">
-                        <i class="fas fa-map-marker icone"></i>
+
+                    <div class="nomResto">
+                        <div>
+                            <h3>La palette du goût</h3>
+                            <p>Ménilmontant</p>
+                        </div>
+
+                        <div class="icone">
+                            <i class="far fa-heart"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </a>
 
 
         <Div class="imgNomLieuxResto">
@@ -172,6 +165,33 @@
                         alt="">
                 </div>
 
+                <div class="nouveau">
+                    <p>Nouveau</p>
+                </div>
+
+
+                <div class="nomResto">
+                    <div>
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                    </div>
+
+                    <div class="icone">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <Div class="imgNomLieuxResto">
+
+            <div class=>
+                <div class="photo1"><img
+                        src="Maquettes Ohmyfood\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                </div>
+
                 <div class="nomResto">
                     <div>
                         <h3>La note enchantée</h3>
@@ -179,37 +199,43 @@
                     </div>
 
                     <div class="icone">
-                        <i class="fas fa-map-marker icone"></i>
+                        <i class="far fa-heart"></i>
                     </div>
                 </div>
             </div>
 
-       </div>
-       <Div class="imgNomLieuxResto">
+        </div>
+        <Div class="imgNomLieuxResto">
 
-        <div class=>
-            <div class="photo1"><img
-                    src="Maquettes Ohmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
-            </div>
-
-            <div class="nomResto">
-                <div>
-                    <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
+            <div class=>
+                <div class="photo1"><img
+                        src="Maquettes Ohmyfood\images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                        alt="">
                 </div>
 
-                <div class="icone">
-                    <i class="fas fa-map-marker icone"></i>
+                <div class="nomResto">
+                    <div>
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                    </div>
+
+                    <div class="icone">
+                        <i class="far fa-heart"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </section>
     <!-- FIN SECTION 3 -->
 
 
+    <!-- LOADER SPINNER  -->
 
+
+    <div class="loaderContenair">
+        <div class="loader"></div>
+    </div>
 
 
 
@@ -217,19 +243,23 @@
 
 
         <div>
-            <div>
-                <img src="" alt="Logo de ohmyfood">
+            <div class="footerTittle">
+                ohmyfood
             </div>
 
-            <div>
-                <i></i>
-                <h3>Proposez un restaurant</h3>
-                <a href="#"></a>
-            </div>
-            <i></i>
-            <h3>Devenir propriétaire</h3>
-            <a href="#"></a>
-            <div>
+            <Div>
+
+                <div class="footerDiver">
+                    <i class="fas fa-utensils"></i>
+                    <h3 class=proposerResto>Proposez un restaurant</h3>
+                    <a href="#"></a>
+                </div>
+
+                <div class="footerDiver">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3 class=proposerResto>Devenir propriétaire</h3>
+                    <a href="#"></a>
+                </div>
 
                 <div>
                     <p>Mentions légales</p>
@@ -238,10 +268,16 @@
 
                 <div>
                     <p>Contact</p>
-                    <a href="#"></a>
+                    <a href="#">
+                        <P>contact@homyfoot.fr</P>
+                    </a>
                 </div>
+            </Div>
 
-            </div>
+        </div>
+
+
+        </div>
 
 
     </footer>

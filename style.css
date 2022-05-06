@@ -1,5 +1,14 @@
 /* GENERAL */
 
+h1 {
+    font-family: Shrikhand;
+}
+
+.colorStore {
+
+    color: #ab7ce5;
+}
+
 .body{
 
     width: 100%;
@@ -20,14 +29,39 @@
 
 }
 
+.prixMenu {
+    
+    width: 20%;
+    text-align: right;
+   
+}
+
+.descripAccompagnement {
+    margin: 0%;
+}
+
+.flexCentre2 {
+
+    display: flex;
+    align-items: baseline;
+
+}
+
+.headerOhmyfood {
+    padding-left: 60px;
+}
+
 
 /* LOCALISATION */
 
 .localisation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50px;
-   background-color: rgb(243, 237, 237);
-    box-shadow: 5px 5px gray;
+    background-color: rgb(243, 237, 237);
+    box-shadow: 5px 5px 5px 0px #EAEAEA;
 }
 
 .villeLocalisation {
@@ -35,20 +69,24 @@
     
 }
 
+.bordurePlats {
+    border: 1px solid;
+    margin-right: 240px;
+}
 
 .contenair1{
 
     display: flex;
-    flex-wrap: wrap;
+  
     flex-flow: wrap column;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: auto;
 
 }
 
 .bloc1 {
-    WIDTH: 30%;
+    WIDTH: 100%;
     font-weight: 350px;
     text-align: center;
 }
@@ -58,10 +96,19 @@
     height: 70px;
     border-radius: 40px;
     color: white;
-    background-color: #FF79DA;
     border: 1px solid #FF79DA;
     box-shadow: 0px 5px 5PX #ff79da;
+    background: linear-gradient(#FF79DA, #9356dc);
 
+}
+
+.divButton{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6F6F6;
+    WIDTH: 100%;
 }
 
 
@@ -82,27 +129,41 @@ width: 100%;
 
 
 .photo1 img {
-    height: 350px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 20px 20px;
+    border-top-left-radius: 10px 10px;
     border-top-right-radius: 20px 20px;
+    border-radius: 40px 40px 0 0;
 }
 
 .imgNomLieuxResto {
     display: flex;
     flex-direction: column;
     width: 100%;
+    border: 1px solid;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 40px;
+    position: relative;
 }
 
 .footer {
 
     background-color: black;
-    height: 200px;
+    height: 300px;
     color: white;
+    padding-left: 40px;
 }
 
+.footerDiver {
+    display: flex;
+    align-items: center;
+    
+}
 
+.proposerResto {
+padding-left: 20px;
+}
 
 .choix {
     display: flex;
@@ -114,36 +175,42 @@ width: 100%;
 .bordureChoix {
     
     height: 80px;
-    width: 350px;
+    width: 330px;
     border: 1px solid rgb(238, 233, 233);
     border-radius: 40px;
-    margin: 30px;
-    background-color: rgb(197, 192, 186);
+    margin:  30px 0px;
+    background-color: rgb(231, 227, 222);
     justify-content: left;
     box-shadow: 5px 10px 5px 1px rgba(0, 0, 255, .2);
-
+    padding: 1px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
 
 }
 .numero {
 
-    padding-left: 20px;
-   
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background: #FF79DA;
-    color: white;
-    
-    
-    
+       
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #9356dc;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white; 
     height: 42px;
     width: 42px;
+    position: absolute;
+    left: -10px;
 
 }
 
 .icone {
 
-    padding: 20px;
+    padding: 10px;
+    width: 30px;
 
 }
 
@@ -169,6 +236,325 @@ flex-wrap: wrap;
 flex-direction: column;
 align-items: flex-start;
 justify-content: center;
+}
+
+
+
+
+
+    
+    
+.nomResto {
+
+    DISPLAY: FLEX;
+    justify-content: space-between;
+
+}
+
+.nouveau {
+    display: flex;
+    justify-content: center;
+    background-color: #8Cfffb;
+   position: absolute;
+   top: 5px;
+   right: 10px;
+   width: 100px;
+
+
+
+}
+
+/* A LA FRANCAISE */
+
+
+
+.bacA {
+
+    width: auto;
+    height: auto;
+    background-color: #f0f2f5	;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.bacB {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+.entreesPrix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+       padding-left: 5px;
+  
+}
+
+.entreesPrix h3 {
+    WHITE-SPACE: NOWRAP;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin :0px ;
+}
+ 
+
+.alaFrancaise {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.elementsmenu {
+
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+     align-content: space-between;
+    box-shadow: 2px 4px 8px 3px #e4e4e7;
+  
+}
+
+.gauche {
+
+    display: flex;
+    width: 100%;
+}
+
+.droite {
+
+    position: relative;
+    width: 0%;
+    background-color: green;
+}
+
+.elementsmenu:hover .gauche {
+    animation: 3s reduire;
+    animation-fill-mode: forwards;
+}
+
+
+.elementsmenu:hover .droite {
+    animation: 3s agrandir;
+    animation-fill-mode: forwards;
+}
+
+
+.elementsmenu:hover .droite .fas {
+    animation: 3s tourner;
+    animation-fill-mode: forwards;
+}
+.droite .fas {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+@keyframes tourner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+
+}
+
+@keyframes reduire{
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+
+}
+
+@keyframes agrandir{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+
+}
+
+.entrees{
+
+    animation : slideup 2s ease-out; 
+    animation-fill-mode: forwards;
+}
+
+
+.plats{
+
+    animation : slideup 4s ease-out ;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+
+.desserts{
+
+    animation : slideup 6s ease-out ;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+}
+
+.elementsmenu:hover{
+
+    background-color: #99E2D0;
+}
+
+.alaFrancaiseButton {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.policeFrancaise {
+
+    font-family: "Shrikhand", cursive;
+}
+
+
+
+.footerTittle {
+    font-family: "Shrikhand", cursive;
+    
+}
+
+
+/* KEY */
+@keyframes slideup {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+
+
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* LOADER SPINNER */
+
+.loader {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 16px solid #bdc3c7;
+    width: 50px;
+    height: 50px;
+    border-top-color: #9356DC;
+    border-bottom-color: #FF79DA ;
+   border-radius: 50%;
+   animation: chargeur 5s linear;
+   position: absolute;
+   top: 0;
+   left: 40%;
+   background-color: white;
+   animation-fill-mode:forwards ;
+
+}
+
+
+.loaderContenair {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 1;
+    animation: apparaitre 5s linear ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-fill-mode:forwards ;
+}
+
+@keyframes apparaitre {
+0% {
+    background-color: white;
+    opacity: 1;
+}
+
+100% {
+    background-color: transparent;
+    opacity: 0;
+}
+}   
+
+
+@keyframes chargeur {
+    0% {
+        opacity: 1;
+        background-color: white;
+
+        transform: rotate(0deg) scale(1);
+        border-top-color:#9356DC ;
+        border-bottom-color: #FF79DA ;
+    }
+
+    25% {
+        border-top-color:#9356DC ;
+        border-bottom-color: #FF79DA ;
+         }
+
+    50% {
+        transform: rotate(360deg) scale(1.15);
+        border-top-color: linear-gradient  #FF79DA  #9356DC ;
+        border-bottom-color: #FF79DA ;
+    }
+
+    75% {
+        transform: rotate(360deg) scale(1.15);
+        border-top-color: linear-gradient  #FF79DA  #9356DC ;
+        border-bottom-color: #FF79DA ;
+    }
+h3
+    100% {
+        opacity: 0;
+        background-color: transparent;
+        transform: rotate(720deg) scale(1);
+        border-top-color: linear-gradient  #FF79DA  #9356DC ;
+        border-bottom-color: #FF79DA ;
+    }
+}
+  
+
+.footerLien {
+    display: flex;
+    align-items: center;
+}
+
+.footerLien h3 {
+    margin: 0;
+}
+
+
+.trait {
+    width: 40px;
+    height: 3px;
+    background-color: #99E2D0;
+    align-self: flex-start;
 }
 
 
